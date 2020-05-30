@@ -1,0 +1,33 @@
+
+<h2 style ="color: blueviolet; text-align: center;">List all characters</h2>
+<table border="4">
+    <thead class="thead-dark">
+        <tr><th>Aliases</th>
+        <th>Culture</th>
+        <th>Gender</th>
+        <th>Mother</th>
+        <th>Name</th>
+        <th>PlayedBy</th>
+        <th>PovBooks</th>
+        <th>Titles</th>
+        <th>TvSeries</th>
+        <th>Urlth</th>
+         <th>Url</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor = 'let user of getData'>
+        <td>{{user.aliases}}</td>
+        <td>{{user.culture}}</td>
+        <td>{{user.gender}}</td>
+        <td>{{user.mother}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.playedBy}}</td> 
+       <td>{{user.povBooks}}</td>
+       <td>{{user.titles}}</td>
+        <td>{{user.tvSeries}}</td> 
+        <td>{{user.tvSeries}}</td>
+         <td>{{user.url}}</td>
+    </tr>
+    </tbody>
+</table> 
